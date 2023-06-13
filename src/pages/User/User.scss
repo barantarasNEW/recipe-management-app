@@ -1,0 +1,38 @@
+.user {
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__sign-out {
+    align-self: flex-end;
+  }
+
+  &__icon {
+    height: 50px;
+  }
+
+  &__input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__password__wrapper {
+    position: relative;
+  }
+
+  &__password__icon {
+    width: 25px;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+  }
+
+  &__btns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}

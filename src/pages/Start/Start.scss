@@ -1,0 +1,70 @@
+@import '../../styles/utils/vars';
+
+.start {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  &__status-bar {
+    width: 100%;
+    height: 30px;
+    border: $primaryBorder;
+    border-radius: 50px;
+    position: relative;
+
+    &__com {
+      display: block;
+      width: 0%;
+      height: 100%;
+      background-color: greenyellow;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 2;
+      border-radius: inherit;
+    }
+  }
+
+  &__title {
+    font-size: 25px;
+  }
+
+  &__img {
+    width: 250px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__main__wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__item {
+    &__btn {
+      padding: 5px;
+      border: $primaryBorder;
+
+      &:disabled {
+        text-decoration: line-through;
+        opacity: 0.7;
+        cursor: auto;
+      }
+    }
+  }
+
+  &__btn {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: $primaryBorder;
+  }
+}
