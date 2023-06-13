@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkrecipe_management_app=self.webpackChunkrecipe_management_app||[]).push([[556],{1556:function(n,e,a){a.r(e),a.d(e,{default:function(){return c}});var s=a(7689),t=a(184),c=function(){var n=(0,s.s0)();return(0,t.jsx)("section",{className:"notfound",children:(0,t.jsxs)("div",{className:"notfound__wrapper",children:[(0,t.jsx)("h2",{className:"title",children:"Not found"}),(0,t.jsx)("button",{className:"btn",onClick:function(){n("/")},children:"Home"})]})})}}}]);
+//# sourceMappingURL=556.08344792.chunk.js.map
