@@ -1,0 +1,14 @@
+.bread-crumbs {
+  align-self: flex-start;
+  margin-bottom: 10px;
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__icon {
+    height: 30px;
+  }
+}

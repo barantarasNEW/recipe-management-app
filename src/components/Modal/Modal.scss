@@ -1,0 +1,13 @@
+@import '../../styles/utils/vars';
+
+.modal {
+  padding: 10px 40px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: $primaryColor;
+}

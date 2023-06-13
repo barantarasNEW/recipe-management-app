@@ -1,0 +1,47 @@
+@import '../../styles/utils/vars';
+
+.recipes-list {
+  width: 100%;
+  margin-bottom: 20px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  &__item {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border: $primaryBorder;
+  }
+
+  &__title {
+    font-size: 30px;
+  }
+
+  &__img {
+    width: 250px;
+  }
+
+  &__btns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__icon {
+    width: 30px;
+  }
+}

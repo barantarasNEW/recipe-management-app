@@ -1,0 +1,24 @@
+@import '../../styles/utils/vars';
+@import '../../styles/utils/mixins';
+
+.userbar {
+  &__list {
+    @include navList;
+  }
+
+  &__item {
+    position: relative;
+  }
+
+  &__count {
+    color: $primaryColor; 
+    position: absolute;
+    top: 0;
+    right: -10px;
+    z-index: 2;
+  }
+
+  &__icon {
+    height: 30px;
+  }
+}

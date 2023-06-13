@@ -1,0 +1,12 @@
+@import '../../styles/utils/vars';
+
+.header {
+  padding: 10px;
+  border-bottom: $primaryBorder;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
