@@ -1,4 +1,4 @@
-# **React phone catalog**
+# **Recipe management app**
 
 ## A single-page application implements online store functionality. User can browse recipes, add them to the favorites, search recipes and view recipes details.
 

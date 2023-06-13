@@ -8,17 +8,6 @@ import Auth from "./pages/Auth/Auth";
 import User from "./pages/User/User";
 import NotFound from "./components/NotFound/NotFound";
 import Liked from "./pages/Liked/Liked";
-// import { lazy } from "react";
-
-// const Layout = lazy(() => import("./components/Layout/Layout"));
-// const Home = lazy(() => import("./pages/Home/Home"));
-// const Auth = lazy(() => import("./pages/Auth/Auth"));
-// const Recipes = lazy(() => import("./pages/Recipes/Recipes"));
-// const Liked = lazy(() => import("./pages/Liked/Liked"));
-// const User = lazy(() => import("./pages/User/User"));
-// const Recipe = lazy(() => import("./pages/Recipe/Recipe"));
-// const Start = lazy(() => import("./pages/Start/Start"));
-// const NotFound = lazy(() => import("./components/NotFound/NotFound"));
 
 const App = () => {
   return (
