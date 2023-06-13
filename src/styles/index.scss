@@ -1,0 +1,17 @@
+@import './reset';
+
+@import './animations';
+
+#root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+@import './blocks/page';
+@import './blocks/container';
+@import './blocks/input';
+@import './blocks/error';
+@import './blocks/auth-form';
+@import './blocks/btn';

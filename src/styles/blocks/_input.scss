@@ -1,0 +1,16 @@
+@import '../utils/vars';
+
+.input {
+  width: 320px;
+  height: 40px;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  border-radius: 50px;
+  background-color: $primaryColor;
+  color: #fff;
+
+  &:disabled {
+    pointer-events: none;
+    opacity: 0.6;
+  }
+}

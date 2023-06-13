@@ -1,0 +1,13 @@
+@import '../utils/vars';
+
+.btn {
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  border-radius: 50px;
+  background-color: $primaryColor;
+}

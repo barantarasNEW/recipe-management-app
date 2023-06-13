@@ -1,0 +1,16 @@
+@mixin navList {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@mixin square($_size) {
+  width: $_size;
+  height: $_size;
+}
+
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
